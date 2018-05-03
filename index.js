@@ -9,6 +9,6 @@ function destructivelyPrependKitten(name) {
   return kittens
 }
 function destructivelyRemoveLastKitten() {
-  kittens.slice(-1)
+  kittens.slice(0,3)
   return kittens
 }
